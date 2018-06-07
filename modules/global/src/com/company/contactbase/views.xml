@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<views xmlns="http://schemas.haulmont.com/cuba/view.xsd">
+    <view class="com.company.contactbase.entity.AccessRequest"
+          extends="_local"
+          name="accessRequest-edit">
+        <property name="regions"
+                  view="_local"/>
+    </view>
+    <view class="com.company.contactbase.entity.RegionPeriod"
+          extends="_local"
+          name="regionPeriod-edit">
+        <property name="region"
+                  view="_local"/>
+    </view>
+</views>

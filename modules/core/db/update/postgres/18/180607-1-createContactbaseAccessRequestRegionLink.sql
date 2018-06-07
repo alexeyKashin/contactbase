@@ -1,0 +1,5 @@
+create table CONTACTBASE_ACCESS_REQUEST_REGION_LINK (
+    ACCESS_REQUEST_ID uuid,
+    REGION_ID uuid,
+    primary key (ACCESS_REQUEST_ID, REGION_ID)
+);
